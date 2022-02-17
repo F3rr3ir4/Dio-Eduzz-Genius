@@ -26,14 +26,14 @@ let shuffleOrder = ()=> {
 
 //trigger the next color
 let lightColor = (element, number) => {
-    number = number * 500;
+    number = number * 300;
     setTimeout(()=> {
-        element.classList.add('selected');
+        element.classList.add('selected')
 
-    }, number - 250);
+    }, number - 150);
     setTimeout(() => {
-    element.classList.remove('selected');
-    });
+    element.classList.remove('selected')
+    },number +150)
 }
 
 //checks if the clicked buttons are correct
@@ -106,3 +106,4 @@ blue.onclick=() => click(3);
 
 //Play game
 playGame();
+

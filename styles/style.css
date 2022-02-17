@@ -9,7 +9,7 @@ h1{
     height: 100vh;
     width: 100vw;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center ;
 }
 
@@ -24,6 +24,12 @@ h1{
     width: 700px;
     height: 700px;
 
+}
+.genius div{
+    border: 6px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .blue {
     grid-area: Ablue ;
@@ -51,4 +57,5 @@ h1{
 
 .selected {
     opacity: 0.4;
+    color: #fff;
 }
