@@ -91,7 +91,7 @@ let gamerOver = () => {
 
 //Function play game
 let playGame = ()=> {
-    alert('Bem vindo ao Genius! Iniciando um novo jogo...');
+    alert('Iniciando um novo jogo...');
     score=0;
 
     nextLevel();
